@@ -1,0 +1,18 @@
+name: Print the text file
+
+on:
+    push:
+      branches:
+        - main
+
+jobs:
+    print_text_file:
+        runs-on: ubuntu-latest 
+
+        steps: 
+        - name: Clone The Repository
+          uses: actions/checkout@v2
+        -   name: Read the file
+            run: |
+                ls -la
+                cat text.txt
