@@ -16,3 +16,9 @@ jobs:
             run: |
                 ls -la
                 cat hello.txt
+        - name: Making Folder
+          run: |
+                mkdir -p GitHub
+        - name: Check folder
+          run: |
+                ls -la
