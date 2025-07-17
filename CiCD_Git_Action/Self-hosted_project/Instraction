@@ -1,0 +1,10 @@
+1. AWS Server and update 
+2. git clone local machine 
+3. push new repository 
+4. Setup Git Runner 
+5. Making yml file 
+6. on Server 
+7. sudo ./svc.sh install
+8. sudo ./svc.sh start
+9. push the repo
+
