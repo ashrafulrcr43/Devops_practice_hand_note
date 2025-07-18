@@ -1,3 +1,3 @@
-cd /path/to/actions-runner
-sudo ./svc.sh install
-sudo ./svc.sh start
+1. cd /path/to/actions-runner
+2. sudo ./svc.sh install
+3. sudo ./svc.sh start
